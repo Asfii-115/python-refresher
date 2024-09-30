@@ -11,3 +11,5 @@ print(txt3.format(price))
 
 txt4 = "My order is {carname} and model {model}"
 print(txt4.format(carname="ford", model="mustang"))
+
+# f strings are better
