@@ -23,3 +23,14 @@ print(set7)
 
 set1.update(set5)
 print(set1)
+
+# -----------intersection---------
+s1 = {"apple", "banana", "cherry"}
+s2 = {"google", "microsoft", "apple"}
+s3 = s1.intersection(s2)
+print(s3)
+
+s4 = s1 & s2  # same thing as intersection
+print(s4)
+s1.intersection_update(s2)
+print(s1)
