@@ -32,5 +32,18 @@ print(s3)
 
 s4 = s1 & s2  # same thing as intersection
 print(s4)
-s1.intersection_update(s2)
+# s1.intersection_update(s2)
 print(s1)
+
+
+# ------difference------
+s5 = s1.difference(s2)
+print(s5)
+s6 = s1 - s2
+print(s6)
+# s1.difference_update(s2)
+print(s1)
+s7 = s1.symmetric_difference(s2)
+print(s7)
+s8 = s1 ^ s2
+print(s8)
