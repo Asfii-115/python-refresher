@@ -17,3 +17,9 @@ print(set6)
 tuple1 = (4, 5, 6)
 set7 = set2.union(tuple1)
 print(set7)
+
+# ------update()--------
+# same as union()
+
+set1.update(set5)
+print(set1)
