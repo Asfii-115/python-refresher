@@ -45,3 +45,34 @@ class Dog:
 dog1 = Dog("odo")
 dog1.add_trick("roll over")
 print(dog1.add_trick)
+
+
+class Rectangle:
+    def __init__(self, length, width) -> None:
+        self.length = length
+        self.width = width
+
+    def area(self):
+        print(self.length * self.width)
+
+    def perimeter(self):
+        return (self.length + self.width) * 2
+
+
+r1 = Rectangle(5, 10)
+print(r1.length, r1.width)
+r1.area()
+r1.perimeter()
+
+
+class Grade:
+    def __init__(self, name, points) -> None:
+        self.name = name
+        self.points = points
+
+    def add_grade(self):
+        li = []
+        return li.append(self.points)
+
+    def avg(self):
+        return sum(self.points)
