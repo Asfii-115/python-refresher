@@ -27,3 +27,10 @@
 # s = now.strftime("%-j")  
 # print('\nExample 4:', s)
 
+
+#---------recall---------
+
+from datetime import datetime
+now = datetime.now()
+print(now) #year,month,day etc
+print(now.today) #year,month,day etc
