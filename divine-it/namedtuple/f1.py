@@ -16,3 +16,21 @@ print(car_dict)
 
 updated_car = my_car._replace(model = 'y')
 print(updated_car)
+
+def accum(st):
+    s = ''
+    li = []
+    for x in range(len(st)):
+        s= st[x] * (x+1)
+        li.append(s)
+    return '-'.join(li).title()
+
+print(accum('abcd'))
+
+def DNA_strand(dna):
+    # code here
+    pairs = {'A':'T','T':'A', 'G':'C', 'C':'G'}
+    return ''.join(pairs[x] for x in dna)
+print(DNA_strand('ATTGC'))
+        
+        
